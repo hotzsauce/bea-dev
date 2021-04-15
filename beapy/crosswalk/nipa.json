@@ -1,0 +1,1252 @@
+{
+    "nipa": {
+        "t10101": {
+            "table_name": "t10101",
+            "table_id": 1
+        },
+        "t10803": {
+            "table_name": "t10803",
+            "table_id": 45
+        },
+        "t30200": {
+            "table_name": "t30200",
+            "table_id": 87
+        },
+        "t40203": {
+            "table_name": "t40203",
+            "table_id": 131
+        },
+        "t10102": {
+            "table_name": "t10102",
+            "table_id": 2
+        },
+        "t10806": {
+            "table_name": "t10806",
+            "table_id": 46
+        },
+        "t30300": {
+            "table_name": "t30300",
+            "table_id": 88
+        },
+        "t40204": {
+            "table_name": "t40204",
+            "table_id": 132
+        },
+        "t10103": {
+            "table_name": "t10103",
+            "table_id": 3
+        },
+        "t10903": {
+            "table_name": "t10903",
+            "table_id": 47
+        },
+        "t30400": {
+            "table_name": "t30400",
+            "table_id": 89
+        },
+        "t40205": {
+            "table_name": "t40205",
+            "table_id": 133
+        },
+        "t10104": {
+            "table_name": "t10104",
+            "table_id": 4
+        },
+        "t10904": {
+            "table_name": "t10904",
+            "table_id": 48
+        },
+        "t30500": {
+            "table_name": "t30500",
+            "table_id": 90
+        },
+        "t40206": {
+            "table_name": "t40206",
+            "table_id": 134
+        },
+        "t10105": {
+            "table_name": "t10105",
+            "table_id": 5
+        },
+        "t10905": {
+            "table_name": "t10905",
+            "table_id": 49
+        },
+        "t30600": {
+            "table_name": "t30600",
+            "table_id": 91
+        },
+        "t4030a": {
+            "table_name": "t4030a",
+            "table_id": 135
+        },
+        "t10106": {
+            "table_name": "t10106",
+            "table_id": 6
+        },
+        "t10906": {
+            "table_name": "t10906",
+            "table_id": 50
+        },
+        "t30700": {
+            "table_name": "t30700",
+            "table_id": 92
+        },
+        "t4030b": {
+            "table_name": "t4030b",
+            "table_id": 136
+        },
+        "t10106a": {
+            "table_name": "t10106a",
+            "table_id": 7
+        },
+        "t11000": {
+            "table_name": "t11000",
+            "table_id": 51
+        },
+        "t30800": {
+            "table_name": "t30800",
+            "table_id": 93
+        },
+        "t50100": {
+            "table_name": "t50100",
+            "table_id": 137
+        },
+        "t10106b": {
+            "table_name": "t10106b",
+            "table_id": 8
+        },
+        "t11100": {
+            "table_name": "t11100",
+            "table_id": 52
+        },
+        "t30901": {
+            "table_name": "t30901",
+            "table_id": 94
+        },
+        "t50203": {
+            "table_name": "t50203",
+            "table_id": 138
+        },
+        "t10106c": {
+            "table_name": "t10106c",
+            "table_id": 9
+        },
+        "t11200": {
+            "table_name": "t11200",
+            "table_id": 53
+        },
+        "t30902": {
+            "table_name": "t30902",
+            "table_id": 95
+        },
+        "t50205": {
+            "table_name": "t50205",
+            "table_id": 139
+        },
+        "t10106d": {
+            "table_name": "t10106d",
+            "table_id": 10
+        },
+        "t11300": {
+            "table_name": "t11300",
+            "table_id": 54
+        },
+        "t30903": {
+            "table_name": "t30903",
+            "table_id": 96
+        },
+        "t50206": {
+            "table_name": "t50206",
+            "table_id": 140
+        },
+        "t10107": {
+            "table_name": "t10107",
+            "table_id": 11
+        },
+        "t11400": {
+            "table_name": "t11400",
+            "table_id": 55
+        },
+        "t30904": {
+            "table_name": "t30904",
+            "table_id": 97
+        },
+        "t50301": {
+            "table_name": "t50301",
+            "table_id": 141
+        },
+        "t10108": {
+            "table_name": "t10108",
+            "table_id": 12
+        },
+        "t11500": {
+            "table_name": "t11500",
+            "table_id": 56
+        },
+        "t30905": {
+            "table_name": "t30905",
+            "table_id": 98
+        },
+        "t50302": {
+            "table_name": "t50302",
+            "table_id": 142
+        },
+        "t10109": {
+            "table_name": "t10109",
+            "table_id": 13
+        },
+        "t11600": {
+            "table_name": "t11600",
+            "table_id": 57
+        },
+        "t30906": {
+            "table_name": "t30906",
+            "table_id": 99
+        },
+        "t50303": {
+            "table_name": "t50303",
+            "table_id": 143
+        },
+        "t10110": {
+            "table_name": "t10110",
+            "table_id": 14
+        },
+        "t11701": {
+            "table_name": "t11701",
+            "table_id": 316
+        },
+        "t31001": {
+            "table_name": "t31001",
+            "table_id": 100
+        },
+        "t50304": {
+            "table_name": "t50304",
+            "table_id": 144
+        },
+        "t10111": {
+            "table_name": "t10111",
+            "table_id": 310
+        },
+        "t11705": {
+            "table_name": "t11705",
+            "table_id": 317
+        },
+        "t31003": {
+            "table_name": "t31003",
+            "table_id": 101
+        },
+        "t50305": {
+            "table_name": "t50305",
+            "table_id": 145
+        },
+        "t10201": {
+            "table_name": "t10201",
+            "table_id": 15
+        },
+        "t11706": {
+            "table_name": "t11706",
+            "table_id": 318
+        },
+        "t31004": {
+            "table_name": "t31004",
+            "table_id": 102
+        },
+        "t50306": {
+            "table_name": "t50306",
+            "table_id": 146
+        },
+        "t10202": {
+            "table_name": "t10202",
+            "table_id": 16
+        },
+        "t20100": {
+            "table_name": "t20100",
+            "table_id": 58
+        },
+        "t31005": {
+            "table_name": "t31005",
+            "table_id": 103
+        },
+        "t50401": {
+            "table_name": "t50401",
+            "table_id": 147
+        },
+        "t10203": {
+            "table_name": "t10203",
+            "table_id": 17
+        },
+        "t20200a": {
+            "table_name": "t20200a",
+            "table_id": 59
+        },
+        "t31006": {
+            "table_name": "t31006",
+            "table_id": 104
+        },
+        "t50402": {
+            "table_name": "t50402",
+            "table_id": 148
+        },
+        "t10204": {
+            "table_name": "t10204",
+            "table_id": 18
+        },
+        "t20200b": {
+            "table_name": "t20200b",
+            "table_id": 60
+        },
+        "t31101": {
+            "table_name": "t31101",
+            "table_id": 105
+        },
+        "t50403": {
+            "table_name": "t50403",
+            "table_id": 149
+        },
+        "t10205": {
+            "table_name": "t10205",
+            "table_id": 19
+        },
+        "t20301": {
+            "table_name": "t20301",
+            "table_id": 61
+        },
+        "t31102": {
+            "table_name": "t31102",
+            "table_id": 326
+        },
+        "t50404": {
+            "table_name": "t50404",
+            "table_id": 150
+        },
+        "t10206": {
+            "table_name": "t10206",
+            "table_id": 20
+        },
+        "t20302": {
+            "table_name": "t20302",
+            "table_id": 62
+        },
+        "t31103": {
+            "table_name": "t31103",
+            "table_id": 106
+        },
+        "t50405": {
+            "table_name": "t50405",
+            "table_id": 151
+        },
+        "t10301": {
+            "table_name": "t10301",
+            "table_id": 21
+        },
+        "t20303": {
+            "table_name": "t20303",
+            "table_id": 63
+        },
+        "t31104": {
+            "table_name": "t31104",
+            "table_id": 107
+        },
+        "t50406": {
+            "table_name": "t50406",
+            "table_id": 152
+        },
+        "t10303": {
+            "table_name": "t10303",
+            "table_id": 22
+        },
+        "t20304": {
+            "table_name": "t20304",
+            "table_id": 64
+        },
+        "t31105": {
+            "table_name": "t31105",
+            "table_id": 108
+        },
+        "t50501": {
+            "table_name": "t50501",
+            "table_id": 153
+        },
+        "t10304": {
+            "table_name": "t10304",
+            "table_id": 23
+        },
+        "t20305": {
+            "table_name": "t20305",
+            "table_id": 65
+        },
+        "t31106": {
+            "table_name": "t31106",
+            "table_id": 109
+        },
+        "t50502": {
+            "table_name": "t50502",
+            "table_id": 154
+        },
+        "t10305": {
+            "table_name": "t10305",
+            "table_id": 24
+        },
+        "t20306": {
+            "table_name": "t20306",
+            "table_id": 66
+        },
+        "t31200": {
+            "table_name": "t31200",
+            "table_id": 110
+        },
+        "t50503": {
+            "table_name": "t50503",
+            "table_id": 155
+        },
+        "t10306": {
+            "table_name": "t10306",
+            "table_id": 25
+        },
+        "t20307": {
+            "table_name": "t20307",
+            "table_id": 67
+        },
+        "t31300": {
+            "table_name": "t31300",
+            "table_id": 111
+        },
+        "t50504": {
+            "table_name": "t50504",
+            "table_id": 156
+        },
+        "t10401": {
+            "table_name": "t10401",
+            "table_id": 26
+        },
+        "t20403": {
+            "table_name": "t20403",
+            "table_id": 68
+        },
+        "t31400": {
+            "table_name": "t31400",
+            "table_id": 112
+        },
+        "t50505": {
+            "table_name": "t50505",
+            "table_id": 157
+        },
+        "t10403": {
+            "table_name": "t10403",
+            "table_id": 27
+        },
+        "t20404": {
+            "table_name": "t20404",
+            "table_id": 69
+        },
+        "t31501": {
+            "table_name": "t31501",
+            "table_id": 113
+        },
+        "t50506": {
+            "table_name": "t50506",
+            "table_id": 158
+        },
+        "t10404": {
+            "table_name": "t10404",
+            "table_id": 28
+        },
+        "t20405": {
+            "table_name": "t20405",
+            "table_id": 70
+        },
+        "t31502": {
+            "table_name": "t31502",
+            "table_id": 114
+        },
+        "t50601": {
+            "table_name": "t50601",
+            "table_id": 327
+        },
+        "t10405": {
+            "table_name": "t10405",
+            "table_id": 29
+        },
+        "t20406": {
+            "table_name": "t20406",
+            "table_id": 71
+        },
+        "t31503": {
+            "table_name": "t31503",
+            "table_id": 115
+        },
+        "t50602": {
+            "table_name": "t50602",
+            "table_id": 328
+        },
+        "t10406": {
+            "table_name": "t10406",
+            "table_id": 30
+        },
+        "t20503": {
+            "table_name": "t20503",
+            "table_id": 72
+        },
+        "t31504": {
+            "table_name": "t31504",
+            "table_id": 116
+        },
+        "t50603": {
+            "table_name": "t50603",
+            "table_id": 329
+        },
+        "t10501": {
+            "table_name": "t10501",
+            "table_id": 31
+        },
+        "t20504": {
+            "table_name": "t20504",
+            "table_id": 73
+        },
+        "t31505": {
+            "table_name": "t31505",
+            "table_id": 117
+        },
+        "t50604": {
+            "table_name": "t50604",
+            "table_id": 330
+        },
+        "t10502": {
+            "table_name": "t10502",
+            "table_id": 32
+        },
+        "t20505": {
+            "table_name": "t20505",
+            "table_id": 74
+        },
+        "t31506": {
+            "table_name": "t31506",
+            "table_id": 118
+        },
+        "t50605": {
+            "table_name": "t50605",
+            "table_id": 331
+        },
+        "t10503": {
+            "table_name": "t10503",
+            "table_id": 33
+        },
+        "t20506": {
+            "table_name": "t20506",
+            "table_id": 75
+        },
+        "t31600": {
+            "table_name": "t31600",
+            "table_id": 119
+        },
+        "t50606": {
+            "table_name": "t50606",
+            "table_id": 332
+        },
+        "t10504": {
+            "table_name": "t10504",
+            "table_id": 34
+        },
+        "t20600": {
+            "table_name": "t20600",
+            "table_id": 76
+        },
+        "t31700": {
+            "table_name": "t31700",
+            "table_id": 120
+        },
+        "t50705a": {
+            "table_name": "t50705a",
+            "table_id": 163
+        },
+        "t10505": {
+            "table_name": "t10505",
+            "table_id": 35
+        },
+        "t20700a": {
+            "table_name": "t20700a",
+            "table_id": 77
+        },
+        "t31800a": {
+            "table_name": "t31800a",
+            "table_id": 121
+        },
+        "t50705b": {
+            "table_name": "t50705b",
+            "table_id": 164
+        },
+        "t10506": {
+            "table_name": "t10506",
+            "table_id": 36
+        },
+        "t20700b": {
+            "table_name": "t20700b",
+            "table_id": 78
+        },
+        "t31800b": {
+            "table_name": "t31800b",
+            "table_id": 122
+        },
+        "t50706a": {
+            "table_name": "t50706a",
+            "table_id": 165
+        },
+        "t10604": {
+            "table_name": "t10604",
+            "table_id": 37
+        },
+        "t20801": {
+            "table_name": "t20801",
+            "table_id": 79
+        },
+        "t31900": {
+            "table_name": "t31900",
+            "table_id": 123
+        },
+        "t50706b": {
+            "table_name": "t50706b",
+            "table_id": 166
+        },
+        "t10607": {
+            "table_name": "t10607",
+            "table_id": 38
+        },
+        "t20803": {
+            "table_name": "t20803",
+            "table_id": 80
+        },
+        "t32000": {
+            "table_name": "t32000",
+            "table_id": 124
+        },
+        "t50805a": {
+            "table_name": "t50805a",
+            "table_id": 173
+        },
+        "t10608": {
+            "table_name": "t10608",
+            "table_id": 39
+        },
+        "t20804": {
+            "table_name": "t20804",
+            "table_id": 81
+        },
+        "t32100": {
+            "table_name": "t32100",
+            "table_id": 125
+        },
+        "t50805b": {
+            "table_name": "t50805b",
+            "table_id": 174
+        },
+        "t10701": {
+            "table_name": "t10701",
+            "table_id": 40
+        },
+        "t20805": {
+            "table_name": "t20805",
+            "table_id": 82
+        },
+        "t32200": {
+            "table_name": "t32200",
+            "table_id": 126
+        },
+        "t50806a": {
+            "table_name": "t50806a",
+            "table_id": 175
+        },
+        "t10703": {
+            "table_name": "t10703",
+            "table_id": 41
+        },
+        "t20806": {
+            "table_name": "t20806",
+            "table_id": 83
+        },
+        "t32300": {
+            "table_name": "t32300",
+            "table_id": 127
+        },
+        "t50806b": {
+            "table_name": "t50806b",
+            "table_id": 176
+        },
+        "t10704": {
+            "table_name": "t10704",
+            "table_id": 42
+        },
+        "t20807": {
+            "table_name": "t20807",
+            "table_id": 84
+        },
+        "t40100": {
+            "table_name": "t40100",
+            "table_id": 128
+        },
+        "t50809a": {
+            "table_name": "t50809a",
+            "table_id": 333
+        },
+        "t10705": {
+            "table_name": "t10705",
+            "table_id": 43
+        },
+        "t20900": {
+            "table_name": "t20900",
+            "table_id": 85
+        },
+        "t40201": {
+            "table_name": "t40201",
+            "table_id": 129
+        },
+        "t50809b": {
+            "table_name": "t50809b",
+            "table_id": 334
+        },
+        "t10706": {
+            "table_name": "t10706",
+            "table_id": 44
+        },
+        "t30100": {
+            "table_name": "t30100",
+            "table_id": 86
+        },
+        "t40202": {
+            "table_name": "t40202",
+            "table_id": 130
+        },
+        "t50903a": {
+            "table_name": "t50903a",
+            "table_id": 335
+        },
+        "t50903b": {
+            "table_name": "t50903b",
+            "table_id": 336
+        },
+        "t61100a": {
+            "table_name": "t61100a",
+            "table_id": 216
+        },
+        "t62200b": {
+            "table_name": "t62200b",
+            "table_id": 261
+        },
+        "t50904a": {
+            "table_name": "t50904a",
+            "table_id": 337
+        },
+        "t61100b": {
+            "table_name": "t61100b",
+            "table_id": 217
+        },
+        "t62200c": {
+            "table_name": "t62200c",
+            "table_id": 262
+        },
+        "t50904b": {
+            "table_name": "t50904b",
+            "table_id": 338
+        },
+        "t61100c": {
+            "table_name": "t61100c",
+            "table_id": 218
+        },
+        "t62200d": {
+            "table_name": "t62200d",
+            "table_id": 263
+        },
+        "t50905a": {
+            "table_name": "t50905a",
+            "table_id": 339
+        },
+        "t61100d": {
+            "table_name": "t61100d",
+            "table_id": 219
+        },
+        "t70100": {
+            "table_name": "t70100",
+            "table_id": 264
+        },
+        "t50905b": {
+            "table_name": "t50905b",
+            "table_id": 340
+        },
+        "t61200a": {
+            "table_name": "t61200a",
+            "table_id": 220
+        },
+        "t70201a": {
+            "table_name": "t70201a",
+            "table_id": 265
+        },
+        "t50906b": {
+            "table_name": "t50906b",
+            "table_id": 342
+        },
+        "t61200b": {
+            "table_name": "t61200b",
+            "table_id": 221
+        },
+        "t70201b": {
+            "table_name": "t70201b",
+            "table_id": 266
+        },
+        "t51000": {
+            "table_name": "t51000",
+            "table_id": 178
+        },
+        "t61200c": {
+            "table_name": "t61200c",
+            "table_id": 222
+        },
+        "t70203a": {
+            "table_name": "t70203a",
+            "table_id": 267
+        },
+        "t51100": {
+            "table_name": "t51100",
+            "table_id": 343
+        },
+        "t61200d": {
+            "table_name": "t61200d",
+            "table_id": 223
+        },
+        "t70203b": {
+            "table_name": "t70203b",
+            "table_id": 268
+        },
+        "t60100b": {
+            "table_name": "t60100b",
+            "table_id": 179
+        },
+        "t61300a": {
+            "table_name": "t61300a",
+            "table_id": 224
+        },
+        "t70204a": {
+            "table_name": "t70204a",
+            "table_id": 269
+        },
+        "t60100c": {
+            "table_name": "t60100c",
+            "table_id": 180
+        },
+        "t61300b": {
+            "table_name": "t61300b",
+            "table_id": 225
+        },
+        "t70204b": {
+            "table_name": "t70204b",
+            "table_id": 270
+        },
+        "t60100d": {
+            "table_name": "t60100d",
+            "table_id": 181
+        },
+        "t61300c": {
+            "table_name": "t61300c",
+            "table_id": 226
+        },
+        "t70205a": {
+            "table_name": "t70205a",
+            "table_id": 271
+        },
+        "t60200a": {
+            "table_name": "t60200a",
+            "table_id": 182
+        },
+        "t61300d": {
+            "table_name": "t61300d",
+            "table_id": 227
+        },
+        "t70205b": {
+            "table_name": "t70205b",
+            "table_id": 272
+        },
+        "t60200b": {
+            "table_name": "t60200b",
+            "table_id": 183
+        },
+        "t61400a": {
+            "table_name": "t61400a",
+            "table_id": 228
+        },
+        "t70206b": {
+            "table_name": "t70206b",
+            "table_id": 273
+        },
+        "t60200c": {
+            "table_name": "t60200c",
+            "table_id": 184
+        },
+        "t61400b": {
+            "table_name": "t61400b",
+            "table_id": 229
+        },
+        "t70303": {
+            "table_name": "t70303",
+            "table_id": 274
+        },
+        "t60200d": {
+            "table_name": "t60200d",
+            "table_id": 185
+        },
+        "t61400c": {
+            "table_name": "t61400c",
+            "table_id": 230
+        },
+        "t70304": {
+            "table_name": "t70304",
+            "table_id": 275
+        },
+        "t60300a": {
+            "table_name": "t60300a",
+            "table_id": 186
+        },
+        "t61400d": {
+            "table_name": "t61400d",
+            "table_id": 231
+        },
+        "t70305": {
+            "table_name": "t70305",
+            "table_id": 276
+        },
+        "t60300b": {
+            "table_name": "t60300b",
+            "table_id": 187
+        },
+        "t61500a": {
+            "table_name": "t61500a",
+            "table_id": 232
+        },
+        "t70306": {
+            "table_name": "t70306",
+            "table_id": 277
+        },
+        "t60300c": {
+            "table_name": "t60300c",
+            "table_id": 188
+        },
+        "t61500b": {
+            "table_name": "t61500b",
+            "table_id": 233
+        },
+        "t70403": {
+            "table_name": "t70403",
+            "table_id": 278
+        },
+        "t60300d": {
+            "table_name": "t60300d",
+            "table_id": 189
+        },
+        "t61500c": {
+            "table_name": "t61500c",
+            "table_id": 234
+        },
+        "t70404": {
+            "table_name": "t70404",
+            "table_id": 279
+        },
+        "t60400a": {
+            "table_name": "t60400a",
+            "table_id": 190
+        },
+        "t61500d": {
+            "table_name": "t61500d",
+            "table_id": 235
+        },
+        "t70405": {
+            "table_name": "t70405",
+            "table_id": 280
+        },
+        "t60400b": {
+            "table_name": "t60400b",
+            "table_id": 191
+        },
+        "t61600a": {
+            "table_name": "t61600a",
+            "table_id": 236
+        },
+        "t70406": {
+            "table_name": "t70406",
+            "table_id": 281
+        },
+        "t60400c": {
+            "table_name": "t60400c",
+            "table_id": 192
+        },
+        "t61600b": {
+            "table_name": "t61600b",
+            "table_id": 237
+        },
+        "t70500": {
+            "table_name": "t70500",
+            "table_id": 282
+        },
+        "t60400d": {
+            "table_name": "t60400d",
+            "table_id": 193
+        },
+        "t61600c": {
+            "table_name": "t61600c",
+            "table_id": 238
+        },
+        "t70600": {
+            "table_name": "t70600",
+            "table_id": 283
+        },
+        "t60500a": {
+            "table_name": "t60500a",
+            "table_id": 194
+        },
+        "t61600d": {
+            "table_name": "t61600d",
+            "table_id": 239
+        },
+        "t70700": {
+            "table_name": "t70700",
+            "table_id": 284
+        },
+        "t60500b": {
+            "table_name": "t60500b",
+            "table_id": 195
+        },
+        "t61700a": {
+            "table_name": "t61700a",
+            "table_id": 240
+        },
+        "t70800": {
+            "table_name": "t70800",
+            "table_id": 285
+        },
+        "t60500c": {
+            "table_name": "t60500c",
+            "table_id": 196
+        },
+        "t61700b": {
+            "table_name": "t61700b",
+            "table_id": 241
+        },
+        "t70900": {
+            "table_name": "t70900",
+            "table_id": 286
+        },
+        "t60500d": {
+            "table_name": "t60500d",
+            "table_id": 197
+        },
+        "t61700c": {
+            "table_name": "t61700c",
+            "table_id": 242
+        },
+        "t71000": {
+            "table_name": "t71000",
+            "table_id": 287
+        },
+        "t60600a": {
+            "table_name": "t60600a",
+            "table_id": 198
+        },
+        "t61700d": {
+            "table_name": "t61700d",
+            "table_id": 243
+        },
+        "t71100": {
+            "table_name": "t71100",
+            "table_id": 288
+        },
+        "t60600b": {
+            "table_name": "t60600b",
+            "table_id": 199
+        },
+        "t61800a": {
+            "table_name": "t61800a",
+            "table_id": 244
+        },
+        "t71200": {
+            "table_name": "t71200",
+            "table_id": 289
+        },
+        "t60600c": {
+            "table_name": "t60600c",
+            "table_id": 200
+        },
+        "t61800b": {
+            "table_name": "t61800b",
+            "table_id": 245
+        },
+        "t71300": {
+            "table_name": "t71300",
+            "table_id": 290
+        },
+        "t60600d": {
+            "table_name": "t60600d",
+            "table_id": 201
+        },
+        "t61800c": {
+            "table_name": "t61800c",
+            "table_id": 246
+        },
+        "t71400": {
+            "table_name": "t71400",
+            "table_id": 291
+        },
+        "t60700a": {
+            "table_name": "t60700a",
+            "table_id": 202
+        },
+        "t61800d": {
+            "table_name": "t61800d",
+            "table_id": 247
+        },
+        "t71500": {
+            "table_name": "t71500",
+            "table_id": 292
+        },
+        "t60700b": {
+            "table_name": "t60700b",
+            "table_id": 203
+        },
+        "t61900a": {
+            "table_name": "t61900a",
+            "table_id": 248
+        },
+        "t71600": {
+            "table_name": "t71600",
+            "table_id": 293
+        },
+        "t60700c": {
+            "table_name": "t60700c",
+            "table_id": 204
+        },
+        "t61900b": {
+            "table_name": "t61900b",
+            "table_id": 249
+        },
+        "t71700": {
+            "table_name": "t71700",
+            "table_id": 294
+        },
+        "t60700d": {
+            "table_name": "t60700d",
+            "table_id": 205
+        },
+        "t61900c": {
+            "table_name": "t61900c",
+            "table_id": 250
+        },
+        "t71800": {
+            "table_name": "t71800",
+            "table_id": 295
+        },
+        "t60800a": {
+            "table_name": "t60800a",
+            "table_id": 206
+        },
+        "t61900d": {
+            "table_name": "t61900d",
+            "table_id": 251
+        },
+        "t71900": {
+            "table_name": "t71900",
+            "table_id": 297
+        },
+        "t60800b": {
+            "table_name": "t60800b",
+            "table_id": 207
+        },
+        "t62000a": {
+            "table_name": "t62000a",
+            "table_id": 252
+        },
+        "t72000": {
+            "table_name": "t72000",
+            "table_id": 296
+        },
+        "t60800c": {
+            "table_name": "t60800c",
+            "table_id": 208
+        },
+        "t62000b": {
+            "table_name": "t62000b",
+            "table_id": 253
+        },
+        "t72100": {
+            "table_name": "t72100",
+            "table_id": 392
+        },
+        "t60800d": {
+            "table_name": "t60800d",
+            "table_id": 209
+        },
+        "t62000c": {
+            "table_name": "t62000c",
+            "table_id": 254
+        },
+        "t72200": {
+            "table_name": "t72200",
+            "table_id": 393
+        },
+        "t60900b": {
+            "table_name": "t60900b",
+            "table_id": 210
+        },
+        "t62000d": {
+            "table_name": "t62000d",
+            "table_id": 255
+        },
+        "t72300": {
+            "table_name": "t72300",
+            "table_id": 394
+        },
+        "t60900c": {
+            "table_name": "t60900c",
+            "table_id": 211
+        },
+        "t62100a": {
+            "table_name": "t62100a",
+            "table_id": 256
+        },
+        "t72400": {
+            "table_name": "t72400",
+            "table_id": 395
+        },
+        "t60900d": {
+            "table_name": "t60900d",
+            "table_id": 212
+        },
+        "t62100b": {
+            "table_name": "t62100b",
+            "table_id": 257
+        },
+        "t72500": {
+            "table_name": "t72500",
+            "table_id": 397
+        },
+        "t61000b": {
+            "table_name": "t61000b",
+            "table_id": 213
+        },
+        "t62100c": {
+            "table_name": "t62100c",
+            "table_id": 258
+        },
+        "t61000c": {
+            "table_name": "t61000c",
+            "table_id": 214
+        },
+        "t62100d": {
+            "table_name": "t62100d",
+            "table_id": 259
+        },
+        "t61000d": {
+            "table_name": "t61000d",
+            "table_id": 215
+        },
+        "t62200a": {
+            "table_name": "t62200a",
+            "table_id": 260
+        }
+    }
+}

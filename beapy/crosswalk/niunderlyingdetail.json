@@ -1,0 +1,304 @@
+{
+    "niunderlyingdetail": {
+        "u001a": {
+            "table_name": "u001a",
+            "table_id": 2001
+        },
+        "u20305": {
+            "table_name": "u20305",
+            "table_id": 2014
+        },
+        "u50203": {
+            "table_name": "u50203",
+            "table_id": 2070
+        },
+        "u50705bu3": {
+            "table_name": "u50705bu3",
+            "table_id": 2092
+        },
+        "u001a2": {
+            "table_name": "u001a2",
+            "table_id": 2012
+        },
+        "u20306": {
+            "table_name": "u20306",
+            "table_id": 2015
+        },
+        "u50205": {
+            "table_name": "u50205",
+            "table_id": 2071
+        },
+        "u50706am": {
+            "table_name": "u50706am",
+            "table_id": 2093
+        },
+        "u001b": {
+            "table_name": "u001b",
+            "table_id": 2023
+        },
+        "u20403": {
+            "table_name": "u20403",
+            "table_id": 2074
+        },
+        "u50206": {
+            "table_name": "u50206",
+            "table_id": 2072
+        },
+        "u50706au": {
+            "table_name": "u50706au",
+            "table_id": 2094
+        },
+        "u001bc": {
+            "table_name": "u001bc",
+            "table_id": 2034
+        },
+        "u20404": {
+            "table_name": "u20404",
+            "table_id": 2016
+        },
+        "u50404": {
+            "table_name": "u50404",
+            "table_id": 2029
+        },
+        "u50706bm": {
+            "table_name": "u50706bm",
+            "table_id": 2095
+        },
+        "u002au": {
+            "table_name": "u002au",
+            "table_id": 2045
+        },
+        "u20405": {
+            "table_name": "u20405",
+            "table_id": 2017
+        },
+        "u50405": {
+            "table_name": "u50405",
+            "table_id": 2030
+        },
+        "u50706bu": {
+            "table_name": "u50706bu",
+            "table_id": 2096
+        },
+        "u002aui": {
+            "table_name": "u002aui",
+            "table_id": 2056
+        },
+        "u20406": {
+            "table_name": "u20406",
+            "table_id": 2018
+        },
+        "u50406": {
+            "table_name": "u50406",
+            "table_id": 2031
+        },
+        "u51100": {
+            "table_name": "u51100",
+            "table_id": 2053
+        },
+        "u002bu": {
+            "table_name": "u002bu",
+            "table_id": 2059
+        },
+        "u30400": {
+            "table_name": "u30400",
+            "table_id": 2019
+        },
+        "u50504": {
+            "table_name": "u50504",
+            "table_id": 2032
+        },
+        "u70204": {
+            "table_name": "u70204",
+            "table_id": 2054
+        },
+        "u002bui": {
+            "table_name": "u002bui",
+            "table_id": 2060
+        },
+        "u30500": {
+            "table_name": "u30500",
+            "table_id": 2020
+        },
+        "u50505": {
+            "table_name": "u50505",
+            "table_id": 2033
+        },
+        "u70205": {
+            "table_name": "u70205",
+            "table_id": 2057
+        },
+        "u003au": {
+            "table_name": "u003au",
+            "table_id": 2061
+        },
+        "u30600": {
+            "table_name": "u30600",
+            "table_id": 2021
+        },
+        "u50506": {
+            "table_name": "u50506",
+            "table_id": 2035
+        },
+        "u70205s": {
+            "table_name": "u70205s",
+            "table_id": 2055
+        },
+        "u003bu": {
+            "table_name": "u003bu",
+            "table_id": 2002
+        },
+        "u30700": {
+            "table_name": "u30700",
+            "table_id": 2022
+        },
+        "u50705am1": {
+            "table_name": "u50705am1",
+            "table_id": 2081
+        },
+        "u70206": {
+            "table_name": "u70206",
+            "table_id": 2058
+        },
+        "u004a1": {
+            "table_name": "u004a1",
+            "table_id": 2003
+        },
+        "u30800": {
+            "table_name": "u30800",
+            "table_id": 2024
+        },
+        "u50705am2": {
+            "table_name": "u50705am2",
+            "table_id": 2082
+        },
+        "u90100": {
+            "table_name": "u90100",
+            "table_id": 2075
+        },
+        "u004a2": {
+            "table_name": "u004a2",
+            "table_id": 2004
+        },
+        "u31200": {
+            "table_name": "u31200",
+            "table_id": 2025
+        },
+        "u50705am3": {
+            "table_name": "u50705am3",
+            "table_id": 2083
+        },
+        "u90200": {
+            "table_name": "u90200",
+            "table_id": 2076
+        },
+        "u004a3": {
+            "table_name": "u004a3",
+            "table_id": 2005
+        },
+        "u31300": {
+            "table_name": "u31300",
+            "table_id": 2026
+        },
+        "u50705au1": {
+            "table_name": "u50705au1",
+            "table_id": 2084
+        },
+        "u90300": {
+            "table_name": "u90300",
+            "table_id": 2077
+        },
+        "u004b1": {
+            "table_name": "u004b1",
+            "table_id": 2006
+        },
+        "u32400": {
+            "table_name": "u32400",
+            "table_id": 2027
+        },
+        "u50705au2": {
+            "table_name": "u50705au2",
+            "table_id": 2085
+        },
+        "u90400": {
+            "table_name": "u90400",
+            "table_id": 2078
+        },
+        "u004b2": {
+            "table_name": "u004b2",
+            "table_id": 2007
+        },
+        "u32500": {
+            "table_name": "u32500",
+            "table_id": 2028
+        },
+        "u50705au3": {
+            "table_name": "u50705au3",
+            "table_id": 2086
+        },
+        "u90500": {
+            "table_name": "u90500",
+            "table_id": 2079
+        },
+        "u004b3": {
+            "table_name": "u004b3",
+            "table_id": 2008
+        },
+        "u40203": {
+            "table_name": "u40203",
+            "table_id": 2114
+        },
+        "u50705bm1": {
+            "table_name": "u50705bm1",
+            "table_id": 2087
+        },
+        "u00500": {
+            "table_name": "u00500",
+            "table_id": 2009
+        },
+        "u40204": {
+            "table_name": "u40204",
+            "table_id": 2111
+        },
+        "u50705bm2": {
+            "table_name": "u50705bm2",
+            "table_id": 2088
+        },
+        "u00600": {
+            "table_name": "u00600",
+            "table_id": 2010
+        },
+        "u40205": {
+            "table_name": "u40205",
+            "table_id": 2113
+        },
+        "u50705bm3": {
+            "table_name": "u50705bm3",
+            "table_id": 2089
+        },
+        "u00700": {
+            "table_name": "u00700",
+            "table_id": 2011
+        },
+        "u40206": {
+            "table_name": "u40206",
+            "table_id": 2112
+        },
+        "u50705bu1": {
+            "table_name": "u50705bu1",
+            "table_id": 2090
+        },
+        "u20304": {
+            "table_name": "u20304",
+            "table_id": 2013
+        },
+        "u4030b": {
+            "table_name": "u4030b",
+            "table_id": 2073
+        },
+        "u50705bu2": {
+            "table_name": "u50705bu2",
+            "table_id": 2091
+        }
+    }
+}

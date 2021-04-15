@@ -1,0 +1,48 @@
+{
+    "datasets": {
+        "nipa": {
+            "beapy": "nipa",
+            "bea": "nipa"
+        },
+        "niunderlyingdetail": {
+            "beapy": "underlying",
+            "bea": "niunderlyingdetail"
+        },
+        "fixedassets": {
+            "beapy": "fixed_asset",
+            "bea": "fixedassets"
+        },
+        "mne": {
+            "beapy": "mne",
+            "bea": "mne"
+        },
+        "gdpbyindustry": {
+            "beapy": "industry",
+            "bea": "gdpbyindustry"
+        },
+        "ita": {
+            "beapy": "ita",
+            "bea": "ita"
+        },
+        "iip": {
+            "beapy": "iip",
+            "bea": "iip"
+        },
+        "inputoutput": {
+            "beapy": "input_output",
+            "bea": "inputoutput"
+        },
+        "underlyinggdpbyindustry": {
+            "beapy": "underlyingindustry",
+            "bea": "underlyinggdpbyindustry"
+        },
+        "intlservtrade": {
+            "beapy": "intl_serv_trade",
+            "bea": "intlservtrade"
+        },
+        "regional": {
+            "beapy": "regional",
+            "bea": "regional"
+        }
+    }
+}

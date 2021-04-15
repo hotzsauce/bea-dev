@@ -1,0 +1,440 @@
+{
+    "fixedassets": {
+        "faat101": {
+            "table_name": "faat101",
+            "table_id": 16
+        },
+        "faat307esi": {
+            "table_name": "faat307esi",
+            "table_id": 138
+        },
+        "faat610": {
+            "table_name": "faat610",
+            "table_id": 119
+        },
+        "faat102": {
+            "table_name": "faat102",
+            "table_id": 17
+        },
+        "faat307i": {
+            "table_name": "faat307i",
+            "table_id": 139
+        },
+        "faat701": {
+            "table_name": "faat701",
+            "table_id": 149
+        },
+        "faat103": {
+            "table_name": "faat103",
+            "table_id": 86
+        },
+        "faat307s": {
+            "table_name": "faat307s",
+            "table_id": 55
+        },
+        "faat702": {
+            "table_name": "faat702",
+            "table_id": 150
+        },
+        "faat104": {
+            "table_name": "faat104",
+            "table_id": 87
+        },
+        "faat308e": {
+            "table_name": "faat308e",
+            "table_id": 57
+        },
+        "faat703": {
+            "table_name": "faat703",
+            "table_id": 151
+        },
+        "faat105": {
+            "table_name": "faat105",
+            "table_id": 96
+        },
+        "faat308esi": {
+            "table_name": "faat308esi",
+            "table_id": 140
+        },
+        "faat704": {
+            "table_name": "faat704",
+            "table_id": 152
+        },
+        "faat106": {
+            "table_name": "faat106",
+            "table_id": 97
+        },
+        "faat308i": {
+            "table_name": "faat308i",
+            "table_id": 141
+        },
+        "faat705": {
+            "table_name": "faat705",
+            "table_id": 153
+        },
+        "faat107": {
+            "table_name": "faat107",
+            "table_id": 105
+        },
+        "faat308s": {
+            "table_name": "faat308s",
+            "table_id": 147
+        },
+        "faat706": {
+            "table_name": "faat706",
+            "table_id": 154
+        },
+        "faat108": {
+            "table_name": "faat108",
+            "table_id": 124
+        },
+        "faat309e": {
+            "table_name": "faat309e",
+            "table_id": 108
+        },
+        "faat707": {
+            "table_name": "faat707",
+            "table_id": 155
+        },
+        "faat109": {
+            "table_name": "faat109",
+            "table_id": 125
+        },
+        "faat309esi": {
+            "table_name": "faat309esi",
+            "table_id": 142
+        },
+        "faat801": {
+            "table_name": "faat801",
+            "table_id": 32
+        },
+        "faat201": {
+            "table_name": "faat201",
+            "table_id": 18
+        },
+        "faat309i": {
+            "table_name": "faat309i",
+            "table_id": 143
+        },
+        "faat802": {
+            "table_name": "faat802",
+            "table_id": 33
+        },
+        "faat202": {
+            "table_name": "faat202",
+            "table_id": 19
+        },
+        "faat309s": {
+            "table_name": "faat309s",
+            "table_id": 110
+        },
+        "faat803": {
+            "table_name": "faat803",
+            "table_id": 50
+        },
+        "faat203": {
+            "table_name": "faat203",
+            "table_id": 42
+        },
+        "faat310e": {
+            "table_name": "faat310e",
+            "table_id": 111
+        },
+        "faat804": {
+            "table_name": "faat804",
+            "table_id": 83
+        },
+        "faat204": {
+            "table_name": "faat204",
+            "table_id": 65
+        },
+        "faat310esi": {
+            "table_name": "faat310esi",
+            "table_id": 144
+        },
+        "faat805": {
+            "table_name": "faat805",
+            "table_id": 148
+        },
+        "faat205": {
+            "table_name": "faat205",
+            "table_id": 66
+        },
+        "faat310i": {
+            "table_name": "faat310i",
+            "table_id": 145
+        },
+        "faat806": {
+            "table_name": "faat806",
+            "table_id": 85
+        },
+        "faat206": {
+            "table_name": "faat206",
+            "table_id": 67
+        },
+        "faat310s": {
+            "table_name": "faat310s",
+            "table_id": 113
+        },
+        "faat807": {
+            "table_name": "faat807",
+            "table_id": 63
+        },
+        "faat207": {
+            "table_name": "faat207",
+            "table_id": 51
+        },
+        "faat401": {
+            "table_name": "faat401",
+            "table_id": 26
+        },
+        "faat808": {
+            "table_name": "faat808",
+            "table_id": 64
+        },
+        "faat208": {
+            "table_name": "faat208",
+            "table_id": 52
+        },
+        "faat402": {
+            "table_name": "faat402",
+            "table_id": 27
+        },
+        "faat809": {
+            "table_name": "faat809",
+            "table_id": 122
+        },
+        "faat209": {
+            "table_name": "faat209",
+            "table_id": 106
+        },
+        "faat403": {
+            "table_name": "faat403",
+            "table_id": 46
+        },
+        "faat810": {
+            "table_name": "faat810",
+            "table_id": 123
+        },
+        "faat210": {
+            "table_name": "faat210",
+            "table_id": 146
+        },
+        "faat404": {
+            "table_name": "faat404",
+            "table_id": 77
+        },
+        "faat901": {
+            "table_name": "faat901",
+            "table_id": 34
+        },
+        "faat301e": {
+            "table_name": "faat301e",
+            "table_id": 21
+        },
+        "faat405": {
+            "table_name": "faat405",
+            "table_id": 78
+        },
+        "faat902": {
+            "table_name": "faat902",
+            "table_id": 95
+        },
+        "faat301esi": {
+            "table_name": "faat301esi",
+            "table_id": 126
+        },
+        "faat406": {
+            "table_name": "faat406",
+            "table_id": 79
+        },
+        "faat903": {
+            "table_name": "faat903",
+            "table_id": 104
+        },
+        "faat301i": {
+            "table_name": "faat301i",
+            "table_id": 127
+        },
+        "faat407": {
+            "table_name": "faat407",
+            "table_id": 59
+        },
+        "faat301s": {
+            "table_name": "faat301s",
+            "table_id": 22
+        },
+        "faat408": {
+            "table_name": "faat408",
+            "table_id": 60
+        },
+        "faat302e": {
+            "table_name": "faat302e",
+            "table_id": 24
+        },
+        "faat409": {
+            "table_name": "faat409",
+            "table_id": 114
+        },
+        "faat302esi": {
+            "table_name": "faat302esi",
+            "table_id": 128
+        },
+        "faat410": {
+            "table_name": "faat410",
+            "table_id": 115
+        },
+        "faat302i": {
+            "table_name": "faat302i",
+            "table_id": 129
+        },
+        "faat501": {
+            "table_name": "faat501",
+            "table_id": 28
+        },
+        "faat302s": {
+            "table_name": "faat302s",
+            "table_id": 25
+        },
+        "faat502": {
+            "table_name": "faat502",
+            "table_id": 29
+        },
+        "faat303e": {
+            "table_name": "faat303e",
+            "table_id": 44
+        },
+        "faat503": {
+            "table_name": "faat503",
+            "table_id": 47
+        },
+        "faat303esi": {
+            "table_name": "faat303esi",
+            "table_id": 130
+        },
+        "faat504": {
+            "table_name": "faat504",
+            "table_id": 88
+        },
+        "faat303i": {
+            "table_name": "faat303i",
+            "table_id": 131
+        },
+        "faat505": {
+            "table_name": "faat505",
+            "table_id": 89
+        },
+        "faat303s": {
+            "table_name": "faat303s",
+            "table_id": 45
+        },
+        "faat506": {
+            "table_name": "faat506",
+            "table_id": 90
+        },
+        "faat304e": {
+            "table_name": "faat304e",
+            "table_id": 69
+        },
+        "faat507": {
+            "table_name": "faat507",
+            "table_id": 98
+        },
+        "faat304esi": {
+            "table_name": "faat304esi",
+            "table_id": 132
+        },
+        "faat508": {
+            "table_name": "faat508",
+            "table_id": 99
+        },
+        "faat304i": {
+            "table_name": "faat304i",
+            "table_id": 133
+        },
+        "faat509": {
+            "table_name": "faat509",
+            "table_id": 116
+        },
+        "faat304s": {
+            "table_name": "faat304s",
+            "table_id": 70
+        },
+        "faat510": {
+            "table_name": "faat510",
+            "table_id": 117
+        },
+        "faat305e": {
+            "table_name": "faat305e",
+            "table_id": 72
+        },
+        "faat601": {
+            "table_name": "faat601",
+            "table_id": 41
+        },
+        "faat305esi": {
+            "table_name": "faat305esi",
+            "table_id": 134
+        },
+        "faat602": {
+            "table_name": "faat602",
+            "table_id": 48
+        },
+        "faat305i": {
+            "table_name": "faat305i",
+            "table_id": 135
+        },
+        "faat603": {
+            "table_name": "faat603",
+            "table_id": 49
+        },
+        "faat305s": {
+            "table_name": "faat305s",
+            "table_id": 73
+        },
+        "faat604": {
+            "table_name": "faat604",
+            "table_id": 80
+        },
+        "faat306e": {
+            "table_name": "faat306e",
+            "table_id": 75
+        },
+        "faat605": {
+            "table_name": "faat605",
+            "table_id": 81
+        },
+        "faat306esi": {
+            "table_name": "faat306esi",
+            "table_id": 136
+        },
+        "faat606": {
+            "table_name": "faat606",
+            "table_id": 82
+        },
+        "faat306i": {
+            "table_name": "faat306i",
+            "table_id": 137
+        },
+        "faat607": {
+            "table_name": "faat607",
+            "table_id": 61
+        },
+        "faat306s": {
+            "table_name": "faat306s",
+            "table_id": 76
+        },
+        "faat608": {
+            "table_name": "faat608",
+            "table_id": 62
+        },
+        "faat307e": {
+            "table_name": "faat307e",
+            "table_id": 54
+        },
+        "faat609": {
+            "table_name": "faat609",
+            "table_id": 118
+        }
+    }
+}
