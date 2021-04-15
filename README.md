@@ -105,7 +105,7 @@ The first metadata method simply retrieves the dataset names, along with short d
 >>>     print(name, ': ', desc)
 
     'NIPA' :  'Standard NIPA tables'
-    'NIUnderlyingDetail' :  Standard NI underlying detail tables'
+    'NIUnderlyingDetail' :  'Standard NI underlying detail tables'
     'MNE' :  'Multinational Enterprises'
     ...
 ```
