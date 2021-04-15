@@ -104,9 +104,9 @@ The first metadata method simply retrieves the dataset names, along with short d
 >>> for name, descr in res.datasets.items():
 >>>     print(name, ': ', desc)
 
-    NIPA :  Standard NIPA tables
-    NIUnderlyingDetail :  Standard NI underlying detail tables
-    MNE :  Multinational Enterprises
+    'NIPA' :  'Standard NIPA tables'
+    'NIUnderlyingDetail' :  Standard NI underlying detail tables'
+    'MNE' :  'Multinational Enterprises'
     ...
 ```
 
@@ -117,10 +117,10 @@ The second method returns a `ParameterListResponse` object, with a dictionary of
 >>> for name, desc in res.parameters.items():
 >>>     print(name, ': ', desc)
 
-GeoFips :  {'ParameterDataType': 'string', 'ParameterDescription': ...}
-LineCode :  {'ParameterIsRequiredFlag': '1', 'MultipleAcceptedFlag': '0', ...}
-TableName :  {'ParameterDescription': 'Regional income or product table', ...}
-Year :  {'ParameterDataType': 'string', ...}
+'GeoFips' :  {'ParameterDataType': 'string', 'ParameterDescription': ...}
+'LineCode' :  {'ParameterIsRequiredFlag': '1', 'MultipleAcceptedFlag': '0', ...}
+'TableName' :  {'ParameterDescription': 'Regional income or product table', ...}
+'Year' :  {'ParameterDataType': 'string', ...}
 ```
 
 #### Parameter Values
@@ -130,22 +130,22 @@ The third method returns the permissible values of a parameter:
 >>> for k, v in res.parameters.items():
 >>>     print(k, ': ', v)
 
-Balance :  Balance
-Exports :  Exports
-Imports :  Imports
-SupplementalIns :  Supplemental detail on insurance transactions
+'Balance' :  'Balance'
+'Exports' :  'Exports'
+'Imports' :  'Imports'
+'SupplementalIns' :  'Supplemental detail on insurance transactions'
 ```
 
 #### Filtered Parameter Values
-The final metadata method retrieves the premissible values of a parameter (called the *target parameter*) based on the other provided parameters, which are provided as keyword arguments. For example,
+The final metadata method retrieves the permissible values of a parameter (called the *target parameter*) based on the other provided parameters, which are provided as keyword arguments. For example,
 ```python
 >>> res = bea.filtered_parameter_values('regional', target='linecode', tablename='sainc1')
 >>> for k, v in res.parameters.items():
 >>>     print(k, ': ', v)
 
-1 :  [SAINC1] Personal income
-2 :  [SAINC1] Population
-3 :  [SAINC1] Per capita personal income
+'1' :  '[SAINC1] Personal income'
+'2' :  '[SAINC1] Population'
+'3' :  '[SAINC1] Per capita personal income'
 ```
 
 Multiple parameters can be filtered on at the same time; just provide them as additional keyword arguments.
