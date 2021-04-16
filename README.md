@@ -2,6 +2,17 @@
 
 A pandas-based python package for programatically requesting data from the U.S. Bureau of Economic Analysis (BEA).
 
+## Installation
+
+`BEApy` is registered on PyPI, so just use pip to install:
+```console
+pip install beapy
+```
+or
+```console
+python3 -m pip install beapy
+```
+
 ## Requesting Economic Data
 
 The BEA organizes its data into the following datasets:
