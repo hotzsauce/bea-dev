@@ -21,7 +21,7 @@ The terms in parantheses above are the labels to use when accessing the correspo
 
 #### Dataset Data
 
-We first initialize an instance of the `beapy.BEA` class, providing it with your personal BEA API key (request a free key [here](https://apps.bea.gov/API/signup/index.cfm)). Then provide the dataset name, table name, and data frequency: 
+We first initialize an instance of the `beapy.BEA` class, providing it with your personal BEA API key (request a free key [here](https://apps.bea.gov/API/signup/index.cfm)). Then provide the dataset name, table name, and data frequency:
 
 ```python
 >>> import beapy
@@ -65,7 +65,7 @@ UPR03    U70205S      UPR03  ...    Level  Table 7.2.5S. Auto and T...
 UPR05    U70205S      UPR05  ...    Level  Table 7.2.5S. Auto and T...
 CPA43    U70205S      CPA43  ...    Level  Table 7.2.5S. Auto and T...
 ```
-The information stored in this DataFrame varies from dataset to dataset. For this request, the metadata fields are 
+The information stored in this DataFrame varies from dataset to dataset. For this request, the metadata fields are
 ```python
 >>> res.metadata.columns
 
@@ -73,7 +73,7 @@ Index(['TableName', 'SeriesCode', 'LineNumber', 'LineDescription',
        'METRIC_NAME', 'CL_UNIT', 'Notes'],
       dtype='object')
 ```
-A lot of the meta information relates to how the dataset is organized and displayed in the BEA tables. In this example, 'LineNumber'; in other examples, 'RowNumber', 'ColumnNumber', and the like. Other common ones are 'CL_UNIT' (level, percent change, etc.);  'METRIC_NAME' (Fisher Index, ratio, current dollars); and 'Notes', which are the footnotes of the 
+A lot of the meta information relates to how the dataset is organized and displayed in the BEA tables. In this example, 'LineNumber'; in other examples, 'RowNumber', 'ColumnNumber', and the like. Other common ones are 'CL_UNIT' (level, percent change, etc.);  'METRIC_NAME' (Fisher Index, ratio, current dollars); and 'Notes', which are the footnotes of the BEA table.
 
 
 #### Identifying Series
@@ -176,12 +176,12 @@ The table names of the 'NIPA', 'NIUnderlyingDetail', and 'FixedAssets' datasets 
 
 Use `beapy.define_table_name()` to create a custom reference:
 ```python
->>> res = bea.data('underlying', tablename='auto_output', year='2016') # raise a BEAAPIError
+>>> res = bea.data('underlying', tablename='auto_output', year='2016') # raises a BEAAPIError
 >>> beapy.define_table_name(custom='auto_output', table_name='u70205s', dataset='underlying')
 >>> res = bea.data('underlying', tablename='auto_output', year='2016') # no Error; data in table 'u70205s' is returned
 ```
 
-A similar method is provided to define other names for the datasets:
+A similar method is provided to define other names for the datasets
 ```python
 beapy.define_dataset_name(custom: str, dataset_name: str)
 ```
