@@ -301,7 +301,15 @@ class DataResponse(BEAResponse):
 			# otherwise, reshape dataframe from long to wide format, setting dates
 			#	as index and series identifiers as columns
 			df = df.reset_index()
-			df = df.pivot(index=p_id, columns='index', values='data')
+			try:
+				df = df.pivot(index=p_id, columns='index', values='data')
+			except ValueError:
+				msg = (
+					"\ncould not reshape data into columns of series with time "
+					"periods in the index"
+				)
+				warnings.warn(msg)
+				return df
 			df.columns.name = ''
 
 		df.index.name = ''
