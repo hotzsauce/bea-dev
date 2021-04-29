@@ -1,0 +1,3 @@
+include beapy/crosswalk/*.json
+include beapy/crosswalk/*.py
+include *.md
