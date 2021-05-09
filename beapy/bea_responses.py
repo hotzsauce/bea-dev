@@ -11,6 +11,9 @@ import warnings
 import pandas as pd
 import numpy as np
 
+from beapy.formats import DataFormatter
+
+
 
 def iterable_not_str(obj):
 	return isinstance(obj, abc.Iterable) and not isinstance(obj, str)
@@ -306,6 +309,10 @@ class DataResponse(BEAResponse):
 			# otherwise, reshape dataframe from long to wide format, setting dates
 			#	as index and series identifiers as columns
 			df = df.reset_index()
+
+			formatter = DataFormatter(df)
+			df = formatter.format()
+			"""
 			try:
 				df = df.pivot(index=p_id, columns='index', values='data')
 			except ValueError:
@@ -315,6 +322,7 @@ class DataResponse(BEAResponse):
 				)
 				warnings.warn(msg)
 				return df
+			"""
 			df.columns.name = ''
 
 		df.index.name = ''
