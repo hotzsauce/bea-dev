@@ -154,7 +154,11 @@ class BEAResponse(object):
 			result = getitem_any_level(bea_json, 'Results')
 
 			klass = response_classes[request['METHOD']]
-			return klass(request, result, url, bea_json=bea_json)
+			try:
+				return klass(request, result, url, bea_json=bea_json)
+			except:
+				msg = f"could not create BEAResponse. url is \n{url}"
+				raise ValueError(msg)
 
 		except AttributeError:
 			raise NotImplementedError(f"cannot create Response without json")
@@ -189,7 +193,8 @@ class ParameterValuesResponse(BEAResponse):
 
 		self.parameters = dict()
 		for p in self.result['ParamValue']:
-			self.parameters[p['Key']] = p['Desc']
+			key, description = tuple(p.values())
+			self.parameters[key] = description
 
 
 class DataResponse(BEAResponse):
