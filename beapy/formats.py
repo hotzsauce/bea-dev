@@ -8,6 +8,7 @@ from __future__ import annotations
 import warnings
 
 
+
 class DataFormatter(object):
 
 	def __init__(self, data: pd.DataFrame):
@@ -46,7 +47,7 @@ class DataFormatter(object):
 			series_period.name = 'sp_id'
 			if series_period.nunique() < len(series_period):
 
-				spdf = series_period.to_frame().copy()
+				spdf = series_period.to_frame()
 				spdf['cum_count'] = spdf.groupby('sp_id').cumcount()
 
 				n_dups = len(series_period) - series_period.nunique()
