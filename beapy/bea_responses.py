@@ -312,17 +312,6 @@ class DataResponse(BEAResponse):
 
 			formatter = DataFormatter(df)
 			df = formatter.format()
-			"""
-			try:
-				df = df.pivot(index=p_id, columns='index', values='data')
-			except ValueError:
-				msg = (
-					"\ncould not reshape data into columns of series with time "
-					"periods in the index"
-				)
-				warnings.warn(msg)
-				return df
-			"""
 			df.columns.name = ''
 
 		df.index.name = ''
@@ -348,6 +337,7 @@ class DataResponse(BEAResponse):
 				md['Notes'] = md.NoteRef.map(self.notes)
 				md = md.drop(columns='NoteRef')
 
+		# there's a metadata entry for each period, so drop
 		return md.drop_duplicates()
 
 
