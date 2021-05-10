@@ -31,6 +31,23 @@ class DataFormatter(object):
 
 		df = self.data
 
+		# if only one period is requested, make series identifier the index
+		#	and the time period the series nmae
+		if df[self.p_id].nunique() == 1:
+			p = df.loc[:, self.p_id].iloc[0]
+			df = df.drop(columns=self.p_id).set_index(self.s_id).squeeze().rename(p)
+
+		else:
+			df = self.format_multiperiod()
+			df.columns.name = ''
+
+		df.index.name = ''
+		return df
+
+	def format_multiperiod(self):
+
+		df = self.data
+
 		try:
 			# first attempt is to use pandas built-in pivot function
 			fmted = df.pivot(

@@ -281,28 +281,12 @@ class DataResponse(BEAResponse):
 		df = df.rename(columns={'DataValue': 'data'})
 
 		# ensure datatype consistency
-		dtypes = dict(zip(df.columns, (str, str, data_dtype)))
-		df = df.astype(dtypes)
+		dtypes = dict(zip(df.columns, (str, data_dtype)))
+		df = df.astype(dtypes).reset_index()
 
-		p_id = self.period_identifier
-
-		# if only one period is requested, make series identifiers the index and
-		#	the time period the series name
-		if df[p_id].nunique() == 1:
-			p = df.loc[:, p_id].iloc[0]
-			df = df.drop(columns=p_id).squeeze().rename(p)
-
-		else:
-			# otherwise, reshape dataframe from long to wide format, setting dates
-			#	as index and series identifiers as columns
-			df = df.reset_index()
-
-			formatter = DataFormatter(df)
-			df = formatter.format()
-			df.columns.name = ''
-
-		df.index.name = ''
-		return df
+		formatter = DataFormatter(df)
+		fmt_df = formatter.format()
+		return fmt_df
 
 
 	def _construct_metadata(self, md: pandas.DataFrame):
