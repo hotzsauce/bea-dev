@@ -243,11 +243,7 @@ class DataResponse(BEAResponse):
 		df_md = pd.DataFrame(data)
 		df_md = self._set_unique_index(df_md)
 
-		# UNIT_MULT as in val = DataValue * 10^UNIT_MULT (not always provided)
 		data_cols = [self.period_identifier, 'DataValue']
-		if 'UNIT_MULT' in self.dimensions:
-			data_cols.append('UNIT_MULT')
-
 		meta_cols = [c for c in df_md.columns if c not in data_cols]
 
 		# use .loc so we don't get SettingWithCopyWarning
@@ -282,16 +278,7 @@ class DataResponse(BEAResponse):
 			df.DataValue[idx] = pd.to_numeric(df.DataValue[idx])
 			data_dtype = object
 
-		# compute data from base number & exponent
-		try:
-			expos = pd.to_numeric(df.UNIT_MULT)
-			df['data'] = np.multiply(df.DataValue, np.power(10, expos))
-			df = df.drop(columns=['DataValue', 'UNIT_MULT'])
-
-		except AttributeError:
-			# no 'UNIT_MULT' column
-			df['data'] = df.DataValue
-			df = df.drop(columns='DataValue')
+		df = df.rename(columns={'DataValue': 'data'})
 
 		# ensure datatype consistency
 		dtypes = dict(zip(df.columns, (str, str, data_dtype)))
@@ -299,7 +286,7 @@ class DataResponse(BEAResponse):
 
 		p_id = self.period_identifier
 
-		# if only one period is requested, make series identifers the index and
+		# if only one period is requested, make series identifiers the index and
 		#	the time period the series name
 		if df[p_id].nunique() == 1:
 			p = df.loc[:, p_id].iloc[0]
